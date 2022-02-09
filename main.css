@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('image.jpg');
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Menu{
+    font-family: 'Anton';
+    background-color: burlywood;
+    width: 30rem;
+    max-width: 70rem;
+    height: 40rem;
+    margin: auto;
+    text-align: center;
+    padding: 1.5rem 2.5rem;
+}
+
+.Menu .Est{
+    font-family: sans-serif;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.Menu .hr{
+    height: 3px;
+    background: brown;
+    border-color: brown;
+    margin-top: 1.1rem;
+}
+
+.Menu .coffee{
+    margin-top: 0.7rem;
+}
+
+.Menu .coffee article{
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
+.Menu .link{
+    font-size: 0.9rem;
+    margin-top: 0.4rem;
+}
+
+.Menu .link a{
+    color: #000;
+}
+
+.Menu .link a:hover{
+    color: brown;
+}
+
+.Menu p{
+    font-family: sans-serif;
+}
+.Menu .camp-drive{
+    font-size: 0.9rem;
+    margin-top: 0.4rem;
+}
